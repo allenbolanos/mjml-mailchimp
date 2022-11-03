@@ -150,7 +150,7 @@
     <mc-section padding="30px 37px 41px 47px">
       <mj-column>
         <mc-text mc:edit="footer_text" align="center" font-size="12px" color="#232F3F">
-          © 2022 Amazon.com, Inc. or its affiliates. Amazon and all related logos are trad emarks of Amazon.com, Inc. or its affiliates. Amazon.com, 2021 7th Ave. Seattle, WA 98121
+          copyright&copy; *|CURRENT_YEAR|* Amazon.com, Inc. or its affiliates. Amazon and all related logos are trad emarks of Amazon.com, Inc. or its affiliates. Amazon.com, 2021 7th Ave. Seattle, WA 98121
           <br><br/>
           We hope you found this message to be useful. However, if you’d rather not receive future emails of this sort from Amazon Advertising, please update your <a>email preferences</a> or <a>unsubscribe</a>. 
         </mc-text>
