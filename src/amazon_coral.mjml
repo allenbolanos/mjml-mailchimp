@@ -1,0 +1,161 @@
+<mjml>
+  <mj-head>
+    <mj-title>Amazon Coral Desktop</mj-title>
+    <mj-style>
+    a {
+      text-decoration: underline;
+    }
+
+    .content-image img {
+      max-width: 300px;
+    }
+
+    .misc-image img {
+      max-width: 200px;
+    }
+
+    .icon img {
+      max-width: 60px;
+    }
+    </mj-style>
+    <mj-attributes>
+      <mc-section background-color="#ffffff" padding="0px"/>
+      <mc-text padding="0px"/>
+      <mc-image padding="0px"/>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#161616" width="600px">
+
+    <mj-raw>
+      <!-- Header A -->
+    </mj-raw>
+    <mc-section padding="0px">
+      <mj-column padding-top="28px" padding-bottom="26px">
+        <mc-text mc:edit="header_text" color="#888888" text-decoration="underline" align="center" font-size="9px" >
+          View in Browser
+        </mc-text>
+      </mj-column>
+    </mc-section>
+
+    <mj-raw>
+      <!-- Header B -->
+    </mj-raw>
+    <mc-section background-color="#FF6169" padding="0px">
+      <mj-column padding="22px 0px 15.03px 13px">
+        <mc-image css-class="misc-image" mc:edit="header_image" width="90px" height="22.97px" src="https://i.imgur.com/B7HCyLu.png" alt="amazon ads" align="left" />
+      </mj-column>
+    </mc-section>
+
+    <mj-raw>
+      <!-- Section 1 -->
+    </mj-raw>
+    <mc-section mc:repeatable="section" mc:variant="text on left" padding-top="40px" text-align="center">
+      <mj-column width="100%">
+        <mc-image css-class="misc-image" mc:edit="section_image_line" width="152px" src="https://i.imgur.com/0x47oXU.png" align="left" alt="line" />
+      </mj-column>
+      <mj-column width="291px">
+        <mc-text mc:edit="section_title" padding-top="30px" font-size="30px" font-weight="700" color="#232F3F">
+          Prime Day shopping starts now
+        </mc-text>
+        <mj-spacer height="18px" />
+        <mc-text mc:edit="section_desc" padding-right="33px" line-height="18px" font-size="12px" color="#637488">
+          Epratent que nullaut quia seque postis ipsam, im dollantion eum quia nient. Sent verenisi tetur magniet omnia nonem.
+        </mc-text>
+        <mj-spacer height="18px" />
+        <mc-button mc:edit="section_button" padding="0px" background-color="#0096D6" width="171.97px" height="42.77px" border-radius="22.5px" font-size="16px" font-weight="600" align="left">
+          Learn more
+        </mc-button>
+      </mj-column>
+      <mj-column width="222px">
+        <mc-image css-class="content-image" mc:edit="section_image" padding-bottom="25.15px" height="239.53px" width="222px" src="https://i.imgur.com/zniEv68.png" alt="woman" />
+      </mj-column>
+    </mc-section>
+
+    <mj-raw>
+      <!-- Section 2 -->
+    </mj-raw>
+    <mc-section mc:repeatable="section" mc:variant="text on right" padding-top="51.76px">
+      <mj-column>
+        <mc-image css-class="content-image" mc:edit="section_image" width="224px" height="224px" src="https://i.imgur.com/KZ8YwOg.png" alt="Percentage" />
+      </mj-column>
+      <mj-column padding-top="15px">
+        <mc-text mc:edit="section_title" line-height="27.5px" font-size="25px" color="#232F3F">
+          <strong style="color:#FF6169">Prime Day</strong>
+          <br>
+          <strong>fames id tristique.</strong>
+        </mc-text>
+        <mj-spacer height="11px" />
+        <mc-text mc:edit="section_desc" line-height="24px" font-size="16px" color="#637488" align="left">
+          Epratent que nullaut qu seque postis ipsam, im dollantion eum quia nient. verenisi magniet omnia nonem.
+        </mc-text>
+        <mj-spacer height="11px" />
+        <mc-button mc:edit="section_button" padding="0px" background-color="#0096D6" width="171.97px" height="42.77px" border-radius="22.5px" font-size="18px" font-weight="600" align="left">
+          Learn more
+        </mc-button>
+      </mj-column>
+    </mc-section>
+
+    <mj-raw>
+      <!-- Section 3 -->
+    </mj-raw>
+    <mc-section mc:repeatable="section" mc:variant="text on left" padding-top="65px"padding-bottom="52.9px" text-align="left">
+      <mj-column padding-top="42.55px" padding-bottom="42.55px" padding-left="62px">
+        <mc-text mc:edit="section_desc" line-height="24px" font-size="16px" color="#637488">
+          Que nullaut quia seque postis ipsam, im dollantion eum quia nient. Sent vernisi tetur magniet omnia nonem. Tist, omnisquis dessimaxime 
+        </mc-text>
+      </mj-column>
+      <mj-column>
+        <mc-image css-class="content-image" mc:edit="section_image" width="205.1px" height="205.1px" src="https://i.imgur.com/xWPwQJC.png" alt="Amazon Gif" />
+      </mj-column>
+    </mc-section>
+
+    <mj-raw>
+      <!-- Section 4 -->
+    </mj-raw>
+    <mc-section mc:repeatable="section" mc:variant="text on right" background-color="#FF6169" padding-top="39px">
+      <mj-column>
+        <mc-image css-class="content-image" mc:edit="section_image" width="121px" height="216px" src="https://i.imgur.com/vjhdcIT.png" alt="arrows" />        
+      </mj-column>
+      <mj-column padding-right="49px" padding-top="28px">
+        <mc-text mc:edit="section-desc" line-height="24px" font-size="16px" color="#ffffff">
+          nullaut quia seque postis ipsam, im dollantion eum quia nient. Sent verenisi tetur magniet omnia nonem. Tist, omnisquis eumtrv dessimaxime dolupidest eum qui conse nim estis excea quam fuga.
+        </mc-text>     
+      </mj-column>
+    </mc-section>
+
+    <mj-raw>
+      <!-- Footer Icons -->
+    </mj-raw>
+    <mc-section padding-top="46px">
+      <mj-column width="46px">
+        <mc-image css-class="icon" mc:edit="footer_icon" width="30px" src="https://i.imgur.com/qBT6Csg.png" alt="Twitter Icon" />
+      </mj-column>
+      <mj-column width="46px">
+        <mc-image css-class="icon" mc:edit="footer_icon" width="30px" src="https://i.imgur.com/EjGPbRa.png" alt="Youtube Icon" />
+      </mj-column>
+      <mj-column width="46px">
+        <mc-image css-class="icon" mc:edit="footer_icon" width="30px" src="https://i.imgur.com/0ZzXWh3.png" alt="Linkedin Icon" />
+      </mj-column>
+      <mj-column width="46px">
+        <mc-image css-class="icon" mc:edit="footer_icon" width="30px" src="https://i.imgur.com/GdLiLcD.png" alt="Facebook Icon" />
+      </mj-column>
+      <mj-column width="46px">
+        <mc-image css-class="icon" mc:edit="footer_icon" width="30px" src="https://i.imgur.com/0ZzXWh3.png" alt="Instagram Icon" />
+      </mj-column>
+    </mc-section>
+
+    <mj-raw>
+      <!-- Footer Text -->
+    </mj-raw>
+    <mc-section padding="30px 37px 41px 47px">
+      <mj-column>
+        <mc-text mc:edit="footer_text" align="center" font-size="12px" color="#232F3F">
+          copyright&copy; *|CURRENT_YEAR|* Amazon.com, Inc. or its affiliates. Amazon and all related logos are trad emarks of Amazon.com, Inc. or its affiliates. Amazon.com, 2021 7th Ave. Seattle, WA 98121
+          <br><br/>
+          We hope you found this message to be useful. However, if you’d rather not receive future emails of this sort from Amazon Advertising, please update your <a>email preferences</a> or <a>unsubscribe</a>. 
+        </mc-text>
+      </mj-column>
+    </mc-section>
+
+  </mj-body>
+</mjml>
