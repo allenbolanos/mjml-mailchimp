@@ -2,6 +2,7 @@
   "packages": [
     "mjml-mailchimp/lib/mc-section.js",
     "mjml-mailchimp/lib/mc-image.js",
-    "mjml-mailchimp/lib/mc-text.js"
+    "mjml-mailchimp/lib/mc-text.js",
+    "mjml-mailchimp/lib/mc-button.js"
   ]
 }
